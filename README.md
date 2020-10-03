@@ -13,18 +13,22 @@ Reciprocity CLI supports more features than Reciprocity UI.
 
 Reciprocity UI requires the following:
 
-Requires NodeJS
-Requires Lerna
-Requires js-sha3
-Requires Yarn
+* Requires NodeJS
+* Requires Lerna
+* Requires js-sha3
+* Requires Yarn
 
 To run the web wallet:
 
 Und the root of Reciprocity UI run, 
-npm install --global lerna (If lerna is not installed) 
-yarn run reset
-cd web
-yarn start
+
+> npm install --global lerna (If lerna is not installed) 
+ 
+> yarn run reset
+
+> cd web
+
+> yarn start
 
 Reciprocity Web Wallet Examples
 
@@ -55,16 +59,18 @@ Reciprocity Web Wallet Examples
 ![Call Contract](https://github.com/anthonybuckle/Reciprocity-UI/blob/main/shared/img/Web-ContractCall.png)
 
 To build Reciprocity UI in a Docker Container
-docker build --rm -f "Dockerfile" -t reciprocity_ui:latest .
-docker run --rm -d -p 3000:3000 --name reciprocity_ui reciprocity_ui:latest
-docker exec -it <container> bash
+
+> docker build --rm -f "Dockerfile" -t reciprocity_ui:latest .
+> docker run --rm -d -p 3000:3000 --name reciprocity_ui reciprocity_ui:latest
+> docker exec -it <container> bash
 
 IOS
-pod install
+
+> pod install
 
 Android
-export ANDROID_HOME=$HOME/Library/Android/sdk
-export PATH=$PATH:$ANDROID_HOME/emulator
-export PATH=$PATH:$ANDROID_HOME/tools
-export PATH=$PATH:$ANDROID_HOME/tools/bin
-export PATH=$PATH:$ANDROID_HOME/platform-tools
+> export ANDROID_HOME=$HOME/Library/Android/sdk
+> export PATH=$PATH:$ANDROID_HOME/emulator
+> export PATH=$PATH:$ANDROID_HOME/tools
+> export PATH=$PATH:$ANDROID_HOME/tools/bin
+> export PATH=$PATH:$ANDROID_HOME/platform-tools
