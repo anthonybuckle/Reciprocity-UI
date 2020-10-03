@@ -5,7 +5,7 @@ Reciprocity UI
 
 Reciprocity UI is the interface for the experimental blockchain Reciprocity. The UI supports basic transactions, mining and limited smart contracts. I started this project in 2017 as a hobby. The primary goal of the project was to develop a skill set in another programming language and as a tool to learn core blockchain principles. My wife April helped design and created the reciprocity logo and wallet theme. I started experimenting with atomic swaps, side chains and multi-signatures transactions. I did not finish their implementation. To date reciprocity is not under development, so I have decided to release the code for others to gain value from my experiences. The mobile IOS and android wallets do not support all of the Reciprocity feature set and their implementation is not finished.
 
-Reciprocity port 8912 for wallet json rpc requests.
+Reciprocity uses port 8912 for wallet json rpc requests.
 
 MIT Licensed
 
