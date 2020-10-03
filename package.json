@@ -1,0 +1,15 @@
+{
+  "name": "root",
+  "private": true,
+  "scripts": {
+    "clean": "rm -rf ./*/node_modules && rm -rf ./node_modules",
+    "clean-locks": "rm -rf ./*/package-lock.json && rm -rf ./package-lock.json",
+    "bootstrap": "lerna bootstrap --hoist",
+    "bootstrap-nohoist": "lerna bootstrap",
+    "reset": "yarn clean && yarn clean-locks && yarn bootstrap",
+    "reset-nohoist": "yarn clean && yarn clean-locks && yarn bootstrap-nohoist"
+  },
+  "devDependencies": {
+    "lerna": "^3.22.1"
+  }
+}

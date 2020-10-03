@@ -1,0 +1,34 @@
+{
+  "name": "reciprocity",
+  "version": "1.0.0",
+  "description": "Reciprocity Desktop",
+  "main": "index.js",
+  "scripts": {
+    "start": "electron .",
+    "pack": "electron-builder --dir",
+    "dist": "electron-builder"
+  },
+  "build": {
+    "appId": "your.id",
+    "mac": {
+      "category": "your.app.category.type"
+    },
+    "linux": {
+      "target": "snap",
+      "category": "Development"
+    },
+    "win": {
+      "target": "nsis"
+    }
+  },
+  "repository": "https://github.com/electron/electron-quick-start",
+  "keywords": [
+    "reciprocity"
+  ],
+  "author": "Anthony Buckle",
+  "license": "CC0-1.0",
+  "devDependencies": {
+    "electron": "^6.0.1",
+    "electron-builder": "^21.2.0"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "packages": [
+    "./desktop",
+    "./mobile",
+    "./proxy",
+    "./shared",
+    "./web"
+  ],
+  "version": "0.0.0"
+}

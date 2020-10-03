@@ -1,0 +1,12 @@
+{
+    "name": "shared",
+    "version": "1.0.0",
+    "private": false,
+    "main": "index.js",
+    "dependencies": {
+        "@babel/runtime": "^7.5.5",
+        "redux": "^4.0.4",
+        "redux-thunk": "^2.3.0",
+        "rm": "^0.1.8"
+    }
+}
