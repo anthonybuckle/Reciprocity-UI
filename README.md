@@ -61,7 +61,9 @@ Reciprocity Web Wallet Examples
 To build Reciprocity UI in a Docker Container
 
 > docker build --rm -f "Dockerfile" -t reciprocity_ui:latest .
+
 > docker run --rm -d -p 3000:3000 --name reciprocity_ui reciprocity_ui:latest
+
 > docker exec -it <container> bash
 
 IOS
@@ -69,8 +71,13 @@ IOS
 > pod install
 
 Android
+
 > export ANDROID_HOME=$HOME/Library/Android/sdk
+
 > export PATH=$PATH:$ANDROID_HOME/emulator
+
 > export PATH=$PATH:$ANDROID_HOME/tools
+
 > export PATH=$PATH:$ANDROID_HOME/tools/bin
+
 > export PATH=$PATH:$ANDROID_HOME/platform-tools
