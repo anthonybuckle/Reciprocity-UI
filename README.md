@@ -20,7 +20,7 @@ Reciprocity UI requires the following:
 
 To run the web wallet:
 
-Und the root of Reciprocity UI run, 
+Under the root of Reciprocity UI run, 
 
 > npm install --global lerna (If lerna is not installed) 
  
